@@ -1,0 +1,187 @@
+@import  url( 'https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap' );
+
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One' , sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+    font-family: var(--fonte-secundaria);
+   
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+    
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.titulo-principal__curriculo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    text-align: center;
+}
+
+.apresentacao__curriculo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6% 15%;
+    
+}
+
+.conteudo-apresentacao__curriculo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.paragrafo-principal__curriculo {
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-size: 19px;
+}
+
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 4%;
+    }
+
+    .cabecalho-menu {
+        justify-content: center;
+    }
+
+    .apresentacao__about {
+        flex-direction: column-reverse;
+        margin: 5%;
+    }
+
+    .conteudo-apresentacao__about {
+        width: auto;
+    }
+}
+
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+    
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    width: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.rodape {
+    font-family:var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.paragrafo-listas-lista__curriculo {
+    margin: 1em;
+}
+
+
+
+.swiper-slide img {
+    width: 20em;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.card {
+    border-radius: 10px;
+    background: var(--branco);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1em;
+    padding: 1em;
+    font-family: var(--fonte-principal);
+}
+
+.descricao__titulo {
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descricao__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0
+}
+
+.descricao__texto {
+    font-size: 14px;
+}
+
+.botoes__item {
+    margin: 0 0.5em;
+}
+
+.botoes__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+}
+
+
+
