@@ -1,0 +1,193 @@
+@import  url( 'https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap' );
+
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One' , sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+    font-family: var(--fonte-secundaria);
+   
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+    
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    width: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.titulo-principal__curriculo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    text-align: center;
+}
+
+.apresentacao__curriculo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6% 15%;
+    
+}
+
+.conteudo-apresentacao__curriculo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.paragrafo-principal__curriculo {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: var(--cor-secundaria);
+    font-size: 19px;
+    width: 100%;
+    
+}
+
+.apresentacao__curriculo a{
+ color: var(--cor-secundaria);
+}
+
+.paragrafo-listas-lista__curriculo {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: var(--cor-secundaria);
+    font-size: 19px;
+    width: 100%;
+    
+}
+
+
+.rodape {
+    font-family:var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.paragrafo-listas-lista__curriculo {
+    margin: 1em;
+}
+
+.swiper-slide img {
+    width: 15em;
+}
+
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.descricao__titulo {
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descricao__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0
+}
+
+.descricao__texto {
+    font-size: 14px;
+}
+
+.botoes__item {
+    margin: 0 0.5em;
+}
+
+.botoes__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+}
+
+
+@media screen and (min-width: 1024px) {
+    
+    .cabecalho {
+        display: flex;
+    }
+    
+    .cabecalho-menu {
+        display: flex;
+        gap: 80px;
+    
+    }
+    
+    .cabecalho-link {
+        display: flex;
+        font-family: var(--fonte-secundaria);
+        font-size: 1.5rem;
+        width: 600;
+        color: var(--cor-terciaria);
+        text-decoration: none;
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+        
+    .rodape {
+         width: auto;
+    }
+    
+    .paragrafo-principal__index {
+         text-align: center;
+     }
+    
+    .botoes-link__index {
+            
+         padding: 1em;
+    }
+        
+}
+
+
+
